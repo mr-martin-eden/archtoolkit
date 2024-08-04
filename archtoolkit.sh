@@ -79,100 +79,100 @@ install_tool() {
         1)
             case $2 in
                 1)
-                    yay -S maltego
+                    sudo yay -S maltego
                     ;;
                 2)
-                    yay -S theharvester
+                    sudo yay -S theharvester
                     ;;
             esac
             ;;
         2)
             case $2 in
                 1)
-                    yay -S openvas
+                    sudo yay -S openvas
                     ;;
                 2)
-                    yay -S nessus
+                    sudo yay -S nessus
                     ;;
             esac
             ;;
         3)
             case $2 in
                 1)
-                    yay -S burpsuite
+                    sudo yay -S burpsuite
                     ;;
                 2)
-                    yay -S nikto
+                    sudo yay -S nikto
                     ;;
             esac
             ;;
         4)
             case $2 in
                 1)
-                    pacman -S sqlmap
+                    sudo pacman -S sqlmap
                     ;;
                 2)
-                    yay -S dbpwn
+                    sudo yay -S dbpwn
                     ;;
             esac
             ;;
         5)
             case $2 in
                 1)
-                    pacman -S john
+                    sudo pacman -S john
                     ;;
                 2)
-                    pacman -S hydra
+                    sudo pacman -S hydra
                     ;;
             esac
             ;;
         6)
             case $2 in
                 1)
-                    pacman -S aircrack-ng
+                    sudo pacman -S aircrack-ng
                     ;;
                 2)
-                    pacman -S reaver
+                    sudo pacman -S reaver
                     ;;
             esac
             ;;
         7)
             case $2 in
                 1)
-                    pacman -S nmap
+                    sudo pacman -S nmap
                     ;;
                 2)
-                    yay -S rustscan
+                    sudo yay -S rustscan
                     ;;
             esac
             ;;
         8)
             case $2 in
                 1)
-                    pacman -S metasploit
+                    sudo pacman -S metasploit
                     ;;
                 2)
-                    yay -S armitage
+                    sudo yay -S armitage
                     ;;
             esac
             ;;
         9)
             case $2 in
                 1)
-                    pacman -S wireshark-gtk
+                    sudo pacman -S wireshark-gtk
                     ;;
                 2)
-                    yay -S bettercap
+                    sudo yay -S bettercap
                     ;;
             esac
             ;;
         10)
             case $2 in
                 1)
-                    yay -S empire
+                    sudo yay -S empire
                     ;;
                 2)
-                    pacman -S metasploit
+                    sudo pacman -S metasploit
                     ;;
             esac
             ;;
